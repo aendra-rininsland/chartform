@@ -2,5 +2,30 @@
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs"
+  },
+  "compileOnSave": false,
+  "filesGlob": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "!node_modules/**"
+  ],
+  "files": [
+    "src/app/components/githubContributor/githubContributor.service.spec.ts",
+    "src/app/components/githubContributor/githubContributor.service.ts",
+    "src/app/components/malarkey/malarkey.directive.spec.ts",
+    "src/app/components/malarkey/malarkey.directive.ts",
+    "src/app/components/navbar/navbar.directive.spec.ts",
+    "src/app/components/navbar/navbar.directive.ts",
+    "src/app/components/webDevTec/webDevTec.service.spec.ts",
+    "src/app/components/webDevTec/webDevTec.service.ts",
+    "src/app/index.config.ts",
+    "src/app/index.module.ts",
+    "src/app/index.route.ts",
+    "src/app/index.run.ts",
+    "src/app/main/main.controller.spec.ts",
+    "src/app/main/main.controller.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
   }
 }

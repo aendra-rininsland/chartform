@@ -15,7 +15,7 @@
       "commit": "bb051830df88f5a55dcf06b7fe85bf6b62cc97f2"
     },
     "jquery/jquery.d.ts": {
-      "commit": "bb051830df88f5a55dcf06b7fe85bf6b62cc97f2"
+      "commit": "d1f6bde13f2209be42e86c3686761e8bfcbb50a5"
     },
     "angularjs/angular-resource.d.ts": {
       "commit": "bb051830df88f5a55dcf06b7fe85bf6b62cc97f2"
@@ -24,7 +24,7 @@
       "commit": "bb051830df88f5a55dcf06b7fe85bf6b62cc97f2"
     },
     "angularjs/angular.d.ts": {
-      "commit": "bb051830df88f5a55dcf06b7fe85bf6b62cc97f2"
+      "commit": "d1f6bde13f2209be42e86c3686761e8bfcbb50a5"
     },
     "angularjs/angular-mocks.d.ts": {
       "commit": "bb051830df88f5a55dcf06b7fe85bf6b62cc97f2"
@@ -40,6 +40,9 @@
     },
     "moment/moment-node.d.ts": {
       "commit": "bb051830df88f5a55dcf06b7fe85bf6b62cc97f2"
+    },
+    "angular-material/angular-material.d.ts": {
+      "commit": "d1f6bde13f2209be42e86c3686761e8bfcbb50a5"
     }
   }
 }
