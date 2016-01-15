@@ -1,0 +1,14 @@
+<main>
+  <section  class="flex-6 horizontal layout center self-center" id="stage"></section>
+  <section class="flex-2 horizontal layout center self-center" id="text"></section>
+  <section class="flex horizontal layout center self-stretch around-justified" id="nav">
+    <paper-button hidden$="[[backHidden()]]" on-click="navigateBack">
+      <iron-icon icon="chevron-left"></iron-icon>
+      back
+    </paper-button>
+    <paper-button hidden$="[[forwardHidden()]]" on-click="navigateForward">
+      forward
+      <iron-icon icon="chevron-right"></iron-icon>
+    </paper-button>
+  </section>
+</main>

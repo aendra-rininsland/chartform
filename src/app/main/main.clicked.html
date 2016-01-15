@@ -1,0 +1,16 @@
+<main layout="column" layout-align="center stretch" layout-fill>
+  <section flex="auto" id="stage">
+    <ui-view></ui-view>
+  </section>
+  <section flex="grow" id="text" ng-bind-html="main.currentText"></section>
+  <section flex="5" id="nav" layout="row" layout-align="space-around center">
+    <md-button class="md-raised">
+      <md-icon md-svg-icon="navigation:chevron_left"></md-icon>
+      Back
+    </md-button>
+    <md-button class="md-raised">
+      Forward
+      <md-icon md-svg-icon="navigation:chevron_right"></md-icon>
+    </md-button>
+  </section>
+</main>
