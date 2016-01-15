@@ -11,7 +11,9 @@
   box-sizing: border-box;
 }
 
-html, body, [ui-view] {
+html,
+body,
+[ui-view] {
   height: 100%;
 }
 

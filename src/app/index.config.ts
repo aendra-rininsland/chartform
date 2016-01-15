@@ -1,3 +1,5 @@
+import {SCENES} from './scenes';
+
 /** @ngInject */
 export function config(
   $logProvider: angular.ILogProvider,
@@ -32,4 +34,9 @@ export function config(
    * - clicked
    */
   $provide.constant('JOURNEYTYPE', 'clicked');
+
+  /**
+   * This provides your scenes to the app. Scenes are defined in src/scenes.ts
+   */
+  $provide.constant('SCENES', SCENES);
 }

@@ -2,7 +2,8 @@
 export function routerConfig(
   $stateProvider: angular.ui.IStateProvider,
   $urlRouterProvider: angular.ui.IUrlRouterProvider,
-  JOURNEYTYPE: string) {
+  JOURNEYTYPE: string,
+  SCENES: ISceneList) {
   $stateProvider
     .state('home', {
       url: '/',

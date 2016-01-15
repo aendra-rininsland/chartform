@@ -23,7 +23,8 @@
     "src/app/index.route.ts",
     "src/app/index.run.ts",
     "src/app/main/main.controller.spec.ts",
-    "src/app/main/main.controller.ts"
+    "src/app/main/main.controller.ts",
+    "src/app/scenes.ts"
   ],
   "atom": {
     "rewriteTsconfig": true

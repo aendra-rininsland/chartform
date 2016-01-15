@@ -13,7 +13,7 @@ module chartform {
   angular.module('chartform', [
     'ngAnimate',
     'ngCookies',
-    'ngTouch',
+    // 'ngTouch', // Disabled because Angular Material has its own touch library.
     'ngSanitize',
     'ngMessages',
     'ngAria',
